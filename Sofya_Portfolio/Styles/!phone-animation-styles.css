@@ -1,0 +1,20 @@
+body:not(.phone) {
+.container {
+    margin: 100px 0;
+}
+
+.title, .all-d {
+    opacity: 0;
+}
+
+.animated .title, .animated .all-d, .animated img {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.show {
+    opacity: 1;
+    transform: translateY(0);
+    transform: translateX(0);    
+  } 
+};
